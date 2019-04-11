@@ -13,8 +13,10 @@ const db = require('./config/keys').mongoURI;
 // Connect to MongoDB
 mongoose.connect(db).then(() => console.log('MongoDB Connected')).catch(err => console.log(err));
 
+// Port to use
 const port = process.env.PORT || 8081;
 
+// Get Route to /
 app.get('/', (req, res) => {
   res.send('Hello');
 });
