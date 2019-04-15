@@ -4,5 +4,5 @@ Requirements:
   -node_modules:
   Express, Mongoose, Gravatar, BCryptJs, JWT, and Body-Parser.
 
-How to use:
-navigate to your terminal and run npm start.  That's it!
+I am currently working on the backend.  Once this is finished, I plan to add a frontend to this using React.  
+We will see how this goes.  Currently, all is going well and a lot of this makes a sense.  After finishing the profiles api, I should be able to start working on the frontend!
